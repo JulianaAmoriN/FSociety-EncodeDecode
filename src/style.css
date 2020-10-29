@@ -4,17 +4,38 @@ body {
     background-size: 100%; /* ajusta ao tamanho da janela */
     font-family: 'Times New Roman', Times, serif;
 }
-#quadro{
-    background-color:rgba(206, 197, 197, 0.5);
+#root{
+    background-color:rgba(206, 197, 197, 0.5); /*rgba permite deixar o fundo
+    transparente sem interferência na letra*/
     color:black;
-    display: block;   
-    width: 80%;
-    height: 10%;
+    width: 80%; /* quanto ocupa da tela*/
     border-radius: 10px; /*borda redonda*/
     text-align: center;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 0 auto; /*centralizar bloco*/
 }
-.blocos{
-    display: inline-block;
+.presentation{
+    background-color: rgba(7, 7, 7, 0.5);  
+    color: white;
+}
+.container{
+    display: inline-block; /* permite q os blocos fiquem lado a lado*/
     width: 40%;
+    margin: 20px; /*espaço de um box para o outro*/
+}
+.title{
+    background-color: rgba(44, 41, 41, 0.5);
+    border-radius: 5px;
+}
+.message{
+    background-color: rgba(44, 41, 41, 0.5);
+    border-radius: 5px;
+    font-size: 20px;
+}
+.key{
+    padding: 5px; /*larguta da caixa do botão*/
+    margin-bottom: 15px; /*espaço de um botão para o outo*/
+    margin: 0 auto 0 auto; /* centralizou as caixas*/
+    border: 1px solid black; /*borda da caiza*/
+    border-radius: 5px ;
+    display: block; /* desgrudar a caixa da mensagem do input*/
 }

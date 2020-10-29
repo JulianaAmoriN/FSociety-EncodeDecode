@@ -6,18 +6,58 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="quadro">
-      <h2>Olá Mr/Mra.Robot, se você recebu esse link significa 
+    <!-- id é o RG, class é o grupo de pessoas -->
+    <div id="root">
+      <!--header é o cabeçalho da página-->
+      <header class="presentation">
+        <h2>Olá Mr/Mra.Robot, se você recebu esse link significa 
         que faz parte oficialmente da Fsociety. <br>
-        Para estabelecer comunicação com a Dark Army codifique 
+        Para estabelecer comunicação com a Dark Army criptografe
         TODAS as mensagem antes.
-       </h2>
-      <div class="blocos">
-        <h1>Criptografia</h1>
+        </h2>
+      </header>
+      <div class="container">
+        <h1 class="title">Criptogra&shyfia</h1>
+        <form>
+          <p>
+            CHAVE:<input type="number" id="scret1"  class="key" min="1" >
+          </p>
+          <p>
+            <label for="message1">MENSAGEM:</label> 
+            <!--for coloca um rotulo no elemento textarea -->
+            <textarea id="message1" class="key"></textarea>
+          </p>
+          <p>
+            <button type="submit" class="key" id="send1">Ok</button>
+          </p>
+
+          <p class="message"  id="answer1">
+            /*mensagem descriptografada impresa*/
+          </p>
+        </form>
       </div>
-      <div class="blocos">
-        <h1>Descriptografia</h1>
+
+      <div class="container">
+        <h1 class="title">Descripto&shygrafia</h1>
+        <form>
+          <p>
+            CHAVE:<input type="number"  id="scret2" class="key" min="1">
+          </p>
+          <p>
+          <label for="message2">MENSAGEM:</label>
+          <textarea id="message2" class="key" ></textarea>
+          </p>
+          <p>
+            <button type="submit" class="key" id="send2">Ok</button>
+          </p>
+          <p class="message" id="answer2">
+            /*mensagem descriptografada impresa*/
+          </p>
+        </form> 
       </div>
+
+      <p> <b> PS: LEMBRE DE PASSAR A CHAVE PARA A DESCRIPTOGRAFIA ! </b></p>
+
     </div>
     <script src="index.js" type="module"></script>
   </body>
