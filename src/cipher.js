@@ -5,19 +5,24 @@ const cipher = {
       throw new TypeError("Preencha o campo corretamente")
     }
 
-    let encrypt1 ="";
+    let encrypt = "";
+    const alphabetEncode = 65
+    const alphabet1 = 26
 
     for (let index = 0; index < text1.length; index++) {
       //index é o parametro da posição inicial  de onde deve começar o loop 
       //enquanto index for menor que o numero retornado por length deve continuar o loop (parametro)
       //adiciona 1 a index pro processo ser iniciado novamente (incremento)
-      let code1 = ((text1.charCodeAt(index) - 65) + offSet1) % 26 + 65;
-      let encode1 = String.fromCharCode(code1);
+      if(text1.charAt(index) == " "){
+        encrypt += " "
+      } else {
+        let code1 = ((text1.charCodeAt(index) - alphabetEncode) + offSet1) % alphabet1 + alphabetEncode;
+        let encode1 = String.fromCharCode(code1);
 
-      encrypt1 += encode1;   
+      encrypt += encode1 } 
     }
     
-    return encrypt1
+    return encrypt
     //return finaliza a execução de uma função e 
     //especifica os valores que devem ser retonados para onde a função foi chamada
 
@@ -28,17 +33,23 @@ const cipher = {
       throw new TypeError("Preencha o campo corretamente")
     }
 
-    let encrypt2="";
+    let decrypt = "";
+    const alphabetDecode = 90
+    const alphabet2 = 26
 
     for (let index = 0; index < text2.length; index++) {
 
-      let code2 = ((text2.charCodeAt(index) - 90) - offSet2) % 26 + 90;
-      let encode2 =  String.fromCharCode(code2)
+      if(text2.charAt(index) == " "){
+        decrypt += " "
+      } else {
+
+      let code2 = ((text2.charCodeAt(index) - alphabetDecode) - offSet2) % alphabet2 + alphabetDecode;
+      let decode2 =  String.fromCharCode(code2)
       
-      encrypt2 += encode2;  
+      decrypt += decode2; }
     }
 
-    return encrypt2
+    return decrypt
 
   }
 };
