@@ -1,6 +1,9 @@
 const cipher = {
   //declaro dentro do obejto da variavel a função, sendo assim o que nomeia a função é o objeto que ela esta dentro 
   encode : function(numero11,capturando11){
+    if(numero11 == null|| numero11 == 0){ 
+      throw new TypeError("Preencha o campo corretamente")
+    }
 
     let texto="";
 
@@ -8,12 +11,10 @@ const cipher = {
       //index é o parametro da posição inicial  de onde deve começar o loop 
       //enquanto index for menor que o numero retornado por length deve continuar o loop (parametro)
       //adiciona 1 a index pro processo ser iniciado novamente (incremento)
-    
       let resposta1 = ((capturando11.charCodeAt(index) - 65) + numero11) % 26 + 65;
       let codificado1 = String.fromCharCode(resposta1);
 
       texto += codificado1;   
-      console.log(codificado1)
     }
     
     return texto
@@ -23,6 +24,9 @@ const cipher = {
   }
   , 
   decode : function(numero22,capturando22){
+    if(numero22 == null || numero22 == 0 ){ 
+      throw new TypeError("Preencha o campo corretamente")
+    }
 
     let texto2="";
 
@@ -32,7 +36,7 @@ const cipher = {
       let codificando2 =  String.fromCharCode(resposta2)
       
       texto2 += codificando2;  
-      console.log(codificando2) 
+
     }
 
     return texto2
