@@ -1,43 +1,47 @@
 import cipher from './cipher.js';
 
-let capturando1 = "";
-let capturando11 = "";
-let numero1 = "";
-const botao1 = document.getElementById("send1")
-botao1.addEventListener("click",capturar1)
+const button1 = document.getElementById("send1")
+button1.addEventListener("click",copy1)
 //addEventListener fica esperando o evento acontecer, observador
 
-let capturando2 = "";
-let capturando22 = "";
-let numero2 ="";
-const botao2 = document.getElementById("send2")
-botao2.addEventListener("click",capturar2)
+const button2 = document.getElementById("send2")
+button2.addEventListener("click",copy2)
 
-function capturar1 (event) {
+function copy1 (event) {
     event.preventDefault()
     //event.preventDefault impede que a pagina regarregue quando apertar o botão
-    numero1 = document.getElementById("scret1").value;
-    const numero11 = parseInt(numero1);
+    let print1 = "";
+    let text1 = "";
+    let number1 = "";
+    let offSet1 = "";
+    
+    number1 = document.getElementById("scret1").value;
+    offSet1 = parseInt(number1);
     //parseInt transforma minha string em numero
 
-    capturando1 = document.getElementById('message1').value;
-    capturando11 = capturando1.toUpperCase()
+    print1 = document.getElementById('message1').value;
+    text1 = print1.toUpperCase()
     //toUpperCase faz a letra ficar maiuscula 
 
-    document.getElementById('answer1').innerHTML = cipher.encode(numero11,capturando11);
+    document.getElementById('answer1').innerHTML = cipher.encode(offSet1,text1);
     //o innerHTML define ou retorna o conteúdo HTML
-
 }
 
-function capturar2 (event) {
+function copy2 (event) {
     event.preventDefault()
-    numero2 =document.getElementById("scret2").value;
-    const numero22 = parseInt(numero2);
 
-    capturando2 = document.getElementById('message2').value;
-    capturando22 = capturando2.toUpperCase()
+    let print2 = "";
+    let text2 = "";
+    let number2 = "";
+    let offSet2 = "";
+
+    number2 =document.getElementById("scret2").value;
+    offSet2 = parseInt(number2);
+
+    print2 = document.getElementById('message2').value;
+    text2 = print2.toUpperCase()
    
-    document.getElementById('answer2').innerHTML = cipher.decode(numero22,capturando22);
+    document.getElementById('answer2').innerHTML = cipher.decode(offSet2,text2);
     
 }
 
