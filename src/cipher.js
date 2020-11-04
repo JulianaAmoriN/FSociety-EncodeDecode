@@ -1,45 +1,44 @@
 const cipher = {
   //declaro dentro do obejto da variavel a função, sendo assim o que nomeia a função é o objeto que ela esta dentro 
-  encode : function(numero11,capturando11){
-    if(numero11 == null|| numero11 == 0){ 
+  encode : function(offSet1,text1){
+    if(offSet1 == null || offSet1 == 0){ 
       throw new TypeError("Preencha o campo corretamente")
     }
 
-    let texto="";
+    let encrypt1 ="";
 
-    for (let index = 0; index < capturando11.length; index++) {
+    for (let index = 0; index < text1.length; index++) {
       //index é o parametro da posição inicial  de onde deve começar o loop 
       //enquanto index for menor que o numero retornado por length deve continuar o loop (parametro)
       //adiciona 1 a index pro processo ser iniciado novamente (incremento)
-      let resposta1 = ((capturando11.charCodeAt(index) - 65) + numero11) % 26 + 65;
-      let codificado1 = String.fromCharCode(resposta1);
+      let code1 = ((text1.charCodeAt(index) - 65) + offSet1) % 26 + 65;
+      let encode1 = String.fromCharCode(code1);
 
-      texto += codificado1;   
+      encrypt1 += encode1;   
     }
     
-    return texto
+    return encrypt1
     //return finaliza a execução de uma função e 
     //especifica os valores que devem ser retonados para onde a função foi chamada
 
   }
   , 
-  decode : function(numero22,capturando22){
-    if(numero22 == null || numero22 == 0 ){ 
+  decode : function(offSet2,text2){
+    if(offSet2 == null || offSet2 == 0 ){ 
       throw new TypeError("Preencha o campo corretamente")
     }
 
-    let texto2="";
+    let encrypt2="";
 
-    for (let index = 0; index < capturando22.length; index++) {
+    for (let index = 0; index < text2.length; index++) {
 
-      let resposta2 = ((capturando22.charCodeAt(index) - 90) - numero22) % 26 + 90;
-      let codificando2 =  String.fromCharCode(resposta2)
+      let code2 = ((text2.charCodeAt(index) - 90) - offSet2) % 26 + 90;
+      let encode2 =  String.fromCharCode(code2)
       
-      texto2 += codificando2;  
-
+      encrypt2 += encode2;  
     }
 
-    return texto2
+    return encrypt2
 
   }
 };
