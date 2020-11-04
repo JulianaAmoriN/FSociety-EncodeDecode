@@ -1,7 +1,5 @@
 import cipher from './cipher.js';
 
-console.log(cipher);
-
 let capturando1 = "";
 let capturando11 = "";
 let numero1 = "";
