@@ -6,26 +6,25 @@ const cipher = {
     }
 
     let encrypt = "";
-    const alphabetEncode = 65
-    const alphabet1 = 26
+    const alphabetEncode = 65;
+    const alphabet1 = 26;
 
     for (let index = 0; index < text1.length; index++) {
       //index é o parametro da posição inicial  de onde deve começar o loop 
       //enquanto index for menor que o numero retornado por length deve continuar o loop (parametro)
       //adiciona 1 a index pro processo ser iniciado novamente (incremento)
       if(text1.charAt(index) == " "){
-        encrypt += " "
+        encrypt += " ";
       } else {
         let code1 = ((text1.charCodeAt(index) - alphabetEncode) + offSet1) % alphabet1 + alphabetEncode;
         let encode1 = String.fromCharCode(code1);
 
-      encrypt += encode1 } 
+      encrypt += encode1; } 
     }
     
-    return encrypt
+    return encrypt;
     //return finaliza a execução de uma função e 
     //especifica os valores que devem ser retonados para onde a função foi chamada
-
   }
   , 
   decode : function(offSet2,text2){
@@ -34,22 +33,22 @@ const cipher = {
     }
 
     let decrypt = "";
-    const alphabetDecode = 90
-    const alphabet2 = 26
+    const alphabetDecode = 90;
+    const alphabet2 = 26;
 
     for (let index = 0; index < text2.length; index++) {
 
       if(text2.charAt(index) == " "){
-        decrypt += " "
+        decrypt += " ";
       } else {
 
       let code2 = ((text2.charCodeAt(index) - alphabetDecode) - offSet2) % alphabet2 + alphabetDecode;
-      let decode2 =  String.fromCharCode(code2)
+      let decode2 =  String.fromCharCode(code2);
       
       decrypt += decode2; }
     }
 
-    return decrypt
+    return decrypt;
 
   }
 };

@@ -2,7 +2,7 @@ body {
     background-image: url("FSociety.jpg");
     background-attachment: fixed; /* imagem não rola com a tela*/
     background-size: 100%; /* ajusta ao tamanho da janela */
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
 }
 #root{
     background-color:rgba(206, 197, 197, 0.5); /*rgba permite deixar o fundo
@@ -20,22 +20,29 @@ body {
 .container{
     display: inline-block; /* permite q os blocos fiquem lado a lado*/
     width: 40%;
-    margin: 20px; /*espaço de um box para o outro*/
+    margin: 18px; /*espaço de um box para o outro*/
 }
 .title{
     background-color: rgba(44, 41, 41, 0.5);
     border-radius: 5px;
+}
+#link{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
 }
 .message{
     background-color: rgba(44, 41, 41, 0.5);
     border-radius: 5px;
     font-size: 20px;
 }
-.key{
-    padding: 5px; /*larguta da caixa do botão*/
-    margin-bottom: 15px; /*espaço de um botão para o outo*/
-    margin: 0 auto 0 auto; /* centralizou as caixas*/
-    border: 1px solid black; /*borda da caiza*/
+.box{
+    padding: 5px; 
+    margin: 0 auto 0 auto; 
+    border: 1px solid black; /*borda na caixa*/
     border-radius: 5px ;
     display: block; /* desgrudar a caixa da mensagem do input*/
+}
+.input{
+    display: inline-block; 
 }

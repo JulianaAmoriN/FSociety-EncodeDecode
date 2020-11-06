@@ -18,37 +18,43 @@
       </header>
       
       <div class="container">
-        <h1 class="title">Criptogra&shyfia</h1>
+        <h1 class="title"> Criptogra&shyfia </h1>
         <form>
+           CHAVE: <input type="number" id="scret1"  class="box" min="1" >
           <br>
-           CHAVE <input type="number" id="scret1"  class="key" min="1" >
-          <br>
-            <label for="message1">MENSAGEM:</label> 
+            <label for="message1"> MENSAGEM: </label> 
             <!--for coloca um rotulo no elemento textarea -->
-            <textarea id="message1" class="key"></textarea>
+            <textarea id="message1" class="box"></textarea>
           <br>
-            <button type="submit" class="key" id="send1">Ok</button>
+            <button type="submit" class="box" id="send1"> Criptografar </button>
           <br>
-          <p class="message"  id="answer1"></p>
+          <textarea class="message"  id="answer1" readonly></textarea>
+          <br>
+          <button id= "copy" class="box input" > Copiar </button>
+          <button type="reset" class="box input" > Limpar </button>
         </form>
       </div>
 
       <div class="container">
-        <h1 class="title">Descripto&shygrafia</h1>
+        <h1 class="title"> Descripto&shygrafia </h1>
         <form>
+           CHAVE: <input type="number"  id="scret2" class="box" min="1">
           <br>
-           <label for="message2">MENSAGEM:</label>
-           <textarea id="message2" class="key" ></textarea>
+           <label for="message2"> MENSAGEM: </label>
+           <textarea id="message2" class="box" ></textarea>
           <br>
-           CHAVE:<input type="number"  id="scret2" class="key" min="1">
-           <br>
-            <button type="submit" class="key" id="send2">Ok</button>
+            <button type="submit" class="box" id="send2"> Descriptografar </button>
           <br>
-          <p class="message" id="answer2"></p>
+          <textarea class="message" id="answer2" readonly></textarea>
+          <br>
+          <button type="reset" class="box" >Limpar</button> 
         </form> 
       </div>
 
-      <p> <b> PS: LEMBRE DE PASSAR A CHAVE PARA A DESCRIPTOGRAFIA ! </b> </p>
+      <footer>
+        <p> <b> PS: LEMBRE DE PASSAR A CHAVE PARA A DESCRIPTOGRAFIA ! </b> </p>
+        <p class="title"> Autora <a id="link" href="https://github.com/JulianaAmoriN"  target="_blank" > Juliana Silveira </a> </p>
+      </footer>
 
     </div>
     <script src="index.js" type="module"></script>
