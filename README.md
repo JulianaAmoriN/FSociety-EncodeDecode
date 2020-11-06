@@ -21,6 +21,8 @@ Mr.Robot consttruindo um site no qual ele poderá codificar e decodificar suas m
 
 Caso você não conheça a série Mr.Robot. Aqui está o trailer para se sentir mais contextualizado [:clapper:](https://www.youtube.com/watch?v=8qZYW_1hj2g)
 
+***
+
 ## :man_technologist:	USUÁRIO
 
 Nossos usuários são os membros de FSociety, uma comunidade Hacker, que devido
@@ -28,6 +30,8 @@ a ataques recentes feito a E Corp está sendo viaja pelo FBI. Eles necessitam
 de maior segurança na comunicação para iniciar a Fase2 do plano.
 Nosso canal serve para cifrar mensagens trocadas entre os proprios membros 
 ou a com a comunidade Hacker Dark Army.
+
+***
 
 ## :globe_with_meridians: SITE
 
@@ -37,8 +41,12 @@ Acesse esse site apenas se for membro da FSociety.
 <br>
 Click no link:
 
+***
+
 ## :joystick: COMO USAR
 ![comoUsar](comoUsar.png)
+
+***
 
 ## :chart_with_upwards_trend: DESENVOLVIMENTO DO PROJETO
 
@@ -58,6 +66,8 @@ O projeto foi desenvolvido basicamente em 10 etapas:
 Obiviamente na praticava as etapas nãos se desenvoveram de forma totalmente linear
 porém elas estão listadas para maior comprenção da linha de raciocinio da autora. 
 Para observar a organização um pouco mais de perto acesse o [trello](https://trello.com/b/k7W8ulFX)
+
+----------------
 
 ## :gear: AUTORA
 
