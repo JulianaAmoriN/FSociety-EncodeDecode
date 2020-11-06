@@ -44,16 +44,16 @@ Click no link:
 
 O projeto foi desenvolvido basicamente em 10 etapas:
 
-* 1. Rascunho  do projeto no papel
-* 2. Construi o html 
-* 3. Defini o tema do projeto
-* 4. Fiz o CSS com base no tema 
-* 5. Relizei a comunicação dos botões (html)  com o index.js
-* 6. Desenvolvi a Cifra de César
-* 7. Separei a Cifra do arquivo index.js
-* 8. Coloquei o loop For para cifrar palavras inteiras
-* 9. Adicionei if para permitir o " " nas frases Cifradas
-* 10. Adiconei ajustes e escrevi o ReadMe
+*  Rascunho  do projeto no papel
+*  Construi o html 
+*  Defini o tema do projeto
+*  Fiz o CSS com base no tema 
+*  Relizei a comunicação dos botões (html)  com o index.js
+*  Desenvolvi a Cifra de César
+*  Separei a Cifra do arquivo index.js
+*  Coloquei o loop For para cifrar palavras inteiras
+*  Adicionei if para permitir o " " nas frases Cifradas
+*  Adiconei ajustes e escrevi o ReadMe
 
 Obiviamente na praticava as etapas nãos se desenvoveram de forma totalmente linear
 porém elas estão listadas para maior comprenção da linha de raciocinio da autora. 
