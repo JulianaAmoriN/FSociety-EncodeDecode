@@ -37,10 +37,11 @@ ou a com a comunidade Hacker Dark Army.
 ## :globe_with_meridians: SITE
 
 Acesse esse site apenas se for membro da FSociety.
+![site](site.png)
 Click no link abixo:
 
 ## :joystick: COMO USAR
-
+!(comoUsar)[comoUsar.png]
 
 ## :chart_with_upwards_trend: DESENVOLVIMENTO DO PROJETO
 
