@@ -2,9 +2,9 @@
 
 ## Índice
 
-* [1. DESCRIÇÃO](#1-DESCRIÇÃO)
-* [2. USUÁRIO](#2-USUÁRIO)
-* [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
+* [DESCRIÇÃO](#1-DESCRIÇÃO)
+* [USUÁRIO](#2-USUÁRIO)
+* [SITE](#3-SITE)
 * [4. Considerações gerais](#4-considerações-gerais)
 * [5. Critérios de aceitação mínimos do
   projeto](#5-criterios-de-aceitação-mínimos-do-projeto)
@@ -16,33 +16,31 @@
 
 ***
 
-## 1. DESCRIÇÃO
+## DESCRIÇÃO
 
 O objetivo desse projeto é utilizar a tecnica de codificação criada por Julio César, 
 o imperador romano, juntamente com a tematica apresentada na série de televisão Mr.Robot.
 Sabendo que basicamente a Cifra de César é um metodo de substituição por deslocamento,
-na qua uma letra é substituida por outra letra mais a frente do mesmo alfabeto, ajudamos o 
+no qual uma letra é substituida por outra letra mais a frente do mesmo alfabeto, ajudamos o 
 Mr.Robot consttruindo um site no qual ele poderá codificar e decodificar suas mensagens.
 
 Caso você não conheça a série Mr.Robot. Aqui está o treiller para se sentir mais contextualizado :clapper:
 [video](https://www.youtube.com/watch?v=8qZYW_1hj2g)
 
 
+## USUÁRIO
 
-
-## 2. USUÁRIO
-O usuário a qual esse projeto se destina são membros de FSociety,
-uma comunidade Hacker que devido a ataques recentes feito a E Corp está
-sendo viaja pelo FBI. Eles necessitam de maior segurança na comunicação para
-iniciar a Fase2 do plano.
+Nossos usuários são os membros de FSociety, uma comunidade Hacker, que devido
+a ataques recentes feito a E Corp está sendo viaja pelo FBI. Eles necessitam 
+de maior segurança na comunicação para iniciar a Fase2 do plano.
 Nosso canal serve para cifrar mesnsagens trocadas entre os prorpios membros 
 ou a com a comunidade Hacker Dark Army.
 
-## 3. Objetivos de aprendizagem
+## SITE
 
-Neste projeto você aprenderá a construir uma aplicação web (_WebApp_) que irá
-interagir com o usuário final através do navegador utilizando HTML, CSS e
-JavaScript como ferramentas.
+Acesse esse site apenas se for membro da FSociety.
+Click no link abixo:
+
 
 ### HTML e CSS
 
