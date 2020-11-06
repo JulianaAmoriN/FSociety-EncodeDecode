@@ -1,4 +1,4 @@
-# Cifra de César
+# FSociety - Criptografia & Descriptografia 
 
 ## Índice
 
@@ -18,12 +18,17 @@
 
 ## 1. DESCRIÇÃO
 
-O projeto Fsociety- Criptografia & Descriptografia tem como objetivo
-reproduzir o método de codificação criado por Julio César, o imperador romano.
-Sendo assim utilizamos a tecnica da Cifra de Cesár para possibilitar maior segurança
-na comunicação dos nossos usuários.
-A Cifra de César é basicamente um metodo de substituição por deslocamento, na qual
-a letra é substituida por outra letra mais a frente do mesmo alfabeto.
+O objetivo desse projeto é utilizar a tecnica de codificação criada por Julio César, 
+o imperador romano, juntamente com a tematica apresentada na série de televisão Mr.Robot.
+Sabendo que basicamente a Cifra de César é um metodo de substituição por deslocamento,
+na qua uma letra é substituida por outra letra mais a frente do mesmo alfabeto, ajudamos o 
+Mr.Robot consttruindo um site no qual ele poderá codificar e decodificar suas mensagens.
+
+Caso você não conheça a série Mr.Robot. Aqui está o treiller para se sentir mais contextualizado :clapper:
+[![Mr.Robot](https://www.youtube.com/watch?v=8qZYW_1hj2g)
+
+
+
 
 ## 2. USUÁRIO
 O usuário a qual esse projeto se destina são membros de FSociety,
