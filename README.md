@@ -25,12 +25,6 @@ na comunicação dos nossos usuários.
 A Cifra de César é basicamente um metodo de substituição por deslocamento, na qual
 a letra é substituida por outra letra mais a frente do mesmo alfabeto.
 
- [cifra de
-César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) 
-
-![caeser-cipher](https://user-images.githubusercontent.com/11894994/60990999-07ffdb00-a320-11e9-87d0-b7c291bc4cd1.png)
-
-
 ## 2. USUÁRIO
 O usuário a qual esse projeto se destina são membros de FSociety,
 uma comunidade Hacker que devido a ataques recentes feito a E Corp está
