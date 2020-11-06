@@ -41,7 +41,7 @@ Acesse esse site apenas se for membro da FSociety.
 Click no link abixo:
 
 ## :joystick: COMO USAR
-!(comoUsar)[comoUsar.png]
+![comoUsar](comoUsar.png)
 
 ## :chart_with_upwards_trend: DESENVOLVIMENTO DO PROJETO
 
