@@ -25,7 +25,7 @@ na qua uma letra é substituida por outra letra mais a frente do mesmo alfabeto,
 Mr.Robot consttruindo um site no qual ele poderá codificar e decodificar suas mensagens.
 
 Caso você não conheça a série Mr.Robot. Aqui está o treiller para se sentir mais contextualizado :clapper:
-[![Mr.Robot](https://www.youtube.com/watch?v=8qZYW_1hj2g)
+[video](https://www.youtube.com/watch?v=8qZYW_1hj2g)
 
 
 
