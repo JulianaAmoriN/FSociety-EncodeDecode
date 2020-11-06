@@ -1,6 +1,6 @@
 # FSociety - Criptografia & Descriptografia 
 
-## Índice
+## :open_file_folder: Índice 
 
 * [DESCRIÇÃO](#1-DESCRIÇÃO)
 * [USUÁRIO](#2-USUÁRIO)
@@ -11,10 +11,10 @@
 
 ***
 
-## DESCRIÇÃO
+## :pushpin: DESCRIÇÃO
 
 O objetivo desse projeto é utilizar a tecnica de codificação criada por Julio César, 
-o imperador romano, juntamente com a tematica apresentada na série de televisão Mr.Robot.
+o imperador romano, juntamente com a tematica apresentada na série de televisão Mr.Robot :tv:.
 Sabendo que basicamente a Cifra de César é um metodo de substituição por deslocamento,
 no qual uma letra é substituida por outra letra mais a frente do mesmo alfabeto, ajudamos o 
 Mr.Robot consttruindo um site no qual ele poderá codificar e decodificar suas mensagens.
@@ -26,7 +26,7 @@ Caso você não conheça a série Mr.Robot. Aqui está o treiller para se sentir
 
 
 
-## USUÁRIO
+## :man_technologist:	USUÁRIO
 
 Nossos usuários são os membros de FSociety, uma comunidade Hacker, que devido
 a ataques recentes feito a E Corp está sendo viaja pelo FBI. Eles necessitam 
@@ -34,18 +34,18 @@ de maior segurança na comunicação para iniciar a Fase2 do plano.
 Nosso canal serve para cifrar mesnsagens trocadas entre os prorpios membros 
 ou a com a comunidade Hacker Dark Army.
 
-## SITE
+## :globe_with_meridians: SITE
 
 Acesse esse site apenas se for membro da FSociety.
 Click no link abixo:
 
-## COMO USAR
+## :joystick: COMO USAR
 
 
-## DESENVOLVIMENTO DO PROJETO
+## :chart_with_upwards_trend: DESENVOLVIMENTO DO PROJETO
 
 
-## AUTORA
+## :gear: AUTORA
 
 Juliana Silveira 
 <br>
