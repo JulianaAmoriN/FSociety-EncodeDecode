@@ -2,8 +2,8 @@
 
 ## Índice
 
-* [1. Prefácio](#1-prefácio)
-* [2. Resumo do projeto](#2-resumo-do-projeto)
+* [1. DESCRIÇÃO](#1-DESCRIÇÃO)
+* [2. USUÁRIO](#2-USUÁRIO)
 * [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
 * [4. Considerações gerais](#4-considerações-gerais)
 * [5. Critérios de aceitação mínimos do
@@ -16,48 +16,28 @@
 
 ***
 
-## 1. Prefácio
+## 1. DESCRIÇÃO
 
-Cifrar significa codificar. A [cifra de
-César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) é um dos primeiros
-tipos de criptografias conhecidas na história. O imperador romano Júlio César
-utilizava essa cifra para enviar ordens secretas aos seus generais no campo de
-batalha.
+O projeto Fsociety- Criptografia & Descriptografia tem como objetivo
+reproduzir o método de codificação criado por Julio César, o imperador romano.
+Sendo assim utilizamos a tecnica da Cifra de Cesár para possibilitar maior segurança
+na comunicação dos nossos usuários.
+A Cifra de César é basicamente um metodo de substituição por deslocamento, na qual
+a letra é substituida por outra letra mais a frente do mesmo alfabeto.
+
+ [cifra de
+César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) 
 
 ![caeser-cipher](https://user-images.githubusercontent.com/11894994/60990999-07ffdb00-a320-11e9-87d0-b7c291bc4cd1.png)
 
-A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É um
-tipo de cifra por substituição, em que cada letra do texto original é
-substituida por outra que se encontra há um número fixo de posições
-(deslocamento) mais a frente do mesmo alfabeto.
 
-Por exemplo se usarmos o deslocamento (_offset_) de 3 posições:
-
-* Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-* Alfabeto com cifra:  D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
-* A letra A será D
-* A palavra CASA será FDVD
-
-Atualmente todas as cifras de substituição alfabética simples, são decifradas
-com facilidade e não oferecem muita segurança na comunição, mas a cifra de César
-muitas vezes pode fazer parte de um sistema mais complexo de criptografia, como
-a cifra de Vigenère, e tem aplicação no sistema ROT13.
-
-## 2. Resumo do projeto
-
-O que eu tenho que fazer exatamente? Neste projeto você criará a primeira
-aplicação web do _bootcamp_. Nela o usuário poderá cifrar e decrifrar um texto
-indicando a chave de deslocamento (_offset_).
-
-O tema é livre. Você deve pensar em alguma situação de vida real em que seja
-necessário cifrar uma mensagem e pensar em como deve ser a experiência do
-usuário (tela, explicações, mensagens, cores, marca?, etc.). Algumas ideias de
-exemplo:
-
-* Mensagens secretas para alguma pessoa.
-* Ferramenta de mensagens internas de uma organização em uma zona de conflito.
-* Cifrar cartões de crédito.
-* Criar senhas seguras para email.
+## 2. USUÁRIO
+O usuário a qual esse projeto se destina são membros de FSociety,
+uma comunidade Hacker que devido a ataques recentes feito a E Corp está
+sendo viaja pelo FBI. Eles necessitam de maior segurança na comunicação para
+iniciar a Fase2 do plano.
+Nosso canal serve para cifrar mesnsagens trocadas entre os prorpios membros 
+ou a com a comunidade Hacker Dark Army.
 
 ## 3. Objetivos de aprendizagem
 
