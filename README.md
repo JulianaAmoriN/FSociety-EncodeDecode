@@ -22,10 +22,6 @@ Mr.Robot consttruindo um site no qual ele poderá codificar e decodificar suas m
 Caso você não conheça a série Mr.Robot. Aqui está o treiller para se sentir mais contextualizado :clapper:
 [video](https://www.youtube.com/watch?v=8qZYW_1hj2g)
 
-
-
-
-
 ## :man_technologist:	USUÁRIO
 
 Nossos usuários são os membros de FSociety, uma comunidade Hacker, que devido
@@ -37,9 +33,12 @@ ou a com a comunidade Hacker Dark Army.
 ## :globe_with_meridians: SITE
 
 Acesse esse site apenas se for membro da FSociety.
+![site](site.png)
 Click no link abixo:
 
 ## :joystick: COMO USAR
+
+![comoUsar](comoUsar.png)
 
 
 ## :chart_with_upwards_trend: DESENVOLVIMENTO DO PROJETO
