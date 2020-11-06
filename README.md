@@ -19,32 +19,45 @@ Sabendo que basicamente a Cifra de César é um metodo de substituição por des
 no qual uma letra é substituida por outra letra mais a frente do mesmo alfabeto, ajudamos o 
 Mr.Robot consttruindo um site no qual ele poderá codificar e decodificar suas mensagens.
 
-Caso você não conheça a série Mr.Robot. Aqui está o treiller para se sentir mais contextualizado :clapper:
-[video](https://www.youtube.com/watch?v=8qZYW_1hj2g)
-
-
-
-
+Caso você não conheça a série Mr.Robot. Aqui está o trailer para se sentir mais contextualizado [:clapper:](https://www.youtube.com/watch?v=8qZYW_1hj2g)
 
 ## :man_technologist:	USUÁRIO
 
 Nossos usuários são os membros de FSociety, uma comunidade Hacker, que devido
 a ataques recentes feito a E Corp está sendo viaja pelo FBI. Eles necessitam 
 de maior segurança na comunicação para iniciar a Fase2 do plano.
-Nosso canal serve para cifrar mesnsagens trocadas entre os prorpios membros 
+Nosso canal serve para cifrar mensagens trocadas entre os proprios membros 
 ou a com a comunidade Hacker Dark Army.
 
 ## :globe_with_meridians: SITE
 
 Acesse esse site apenas se for membro da FSociety.
+<br>
 ![site](site.png)
-Click no link abixo:
+<br>
+Click no link:
 
 ## :joystick: COMO USAR
 ![comoUsar](comoUsar.png)
 
 ## :chart_with_upwards_trend: DESENVOLVIMENTO DO PROJETO
 
+O projeto foi desenvolvido basicamente em 10 etapas:
+
+* 1. Rascunho  do projeto no papel
+* 2. Construi o html 
+* 3. Defini o tema do projeto
+* 4. Fiz o CSS com base no tema 
+* 5. Relizei a comunicação dos botões (html)  com o index.js
+* 6. Desenvolvi a Cifra de César
+* 7. Separei a Cifra do arquivo index.js
+* 8. Coloquei o loop For para cifrar palavras inteiras
+* 9. Adicionei if para permitir o " " nas frases Cifradas
+* 10. Adiconei ajustes e escrevi o ReadMe
+
+Obiviamente na praticava as etapas nãos se desenvoveram de forma totalmente linear
+porém elas estão listadas para maior comprenção da linha de raciocinio da autora. 
+Para observar a organização um pouco mais de perto acesse o [trello](https://trello.com/b/k7W8ulFX)
 
 ## :gear: AUTORA
 
