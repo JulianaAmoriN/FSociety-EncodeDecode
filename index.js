@@ -1,13 +1,13 @@
 import cipher from "./cipher.js";
 
-const button1 = document.getElementById("send1");
-button1.addEventListener("click",copy1);
+const button1 = document.getElementById("sendEncode");
+button1.addEventListener("click",formEncode);
 //addEventListener fica esperando o evento acontecer, observador
 
-const button2 = document.getElementById("send2");
-button2.addEventListener("click",copy2);
+const button2 = document.getElementById("sendDecode");
+button2.addEventListener("click",formDecode);
 
-const textInput = document.getElementById("answer1");
+const textInput = document.getElementById("answerEncode");
 const copyButton = document.getElementById("copy");
 copyButton.addEventListener("click",(event) => {
     event.preventDefault();
@@ -15,41 +15,26 @@ copyButton.addEventListener("click",(event) => {
     document.execCommand("copy");
 });
 
-function copy1 (event) {
+function formEncode (event) {
     event.preventDefault();
-    //event.preventDefault impede que a pagina regarregue quando apertar o botão
-    let print1 = "";
-    let text1 = "";
-    let number1 = "";
-    let offSet1 = "";
     
-    number1 = document.getElementById("scret1").value;
-    offSet1 = parseInt(number1);
-    //parseInt transforma minha string em numero
+    const numberEncode = document.getElementById("scretEncode").value;
+    const offSetEncode = parseInt(numberEncode);
 
-    print1 = document.getElementById("message1").value;
-    text1 = print1.toUpperCase();
-    //toUpperCase faz a letra ficar maiuscula 
+    const printEncode = document.getElementById("messageEncode").value;
+    const textEncode = printEncode.toUpperCase();
 
-    document.getElementById("answer1").innerHTML = cipher.encode(offSet1,text1);
-    //o innerHTML define ou retorna o conteúdo HTML
+    document.getElementById("answerEncode").innerHTML = cipher.encode(offSetEncode,textEncode);
 }
-
-function copy2 (event) {
+function formDecode (event) {
     event.preventDefault();
 
-    let print2 = "";
-    let text2 = "";
-    let number2 = "";
-    let offSet2 = "";
+    const numberDecode =document.getElementById("scretDecode").value;
+    const offSetDecode = parseInt(numberDecode);
 
-    number2 =document.getElementById("scret2").value;
-    offSet2 = parseInt(number2);
-
-    print2 = document.getElementById("message2").value;
-    text2 = print2.toUpperCase();
+    const printDecode = document.getElementById("messageDecode").value;
+    const textDecode = printDecode.toUpperCase();
    
-    document.getElementById("answer2").innerHTML = cipher.decode(offSet2,text2);
-    
+    document.getElementById("answerDecode").innerHTML = cipher.decode(offSetDecode,textDecode);
 }
 
