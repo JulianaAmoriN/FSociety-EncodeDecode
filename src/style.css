@@ -4,7 +4,7 @@ body {
     background-size: 100%; /* ajusta ao tamanho da janela */
     font-family: "Times New Roman", Times, serif;
 }
-#root{
+.root{
     background-color:rgba(206, 197, 197, 0.5); /*rgba permite deixar o fundo
     transparente sem interferência na letra*/
     color:black;
@@ -26,23 +26,25 @@ body {
     background-color: rgba(44, 41, 41, 0.5);
     border-radius: 5px;
 }
-#link{
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-}
 .message{
     background-color: rgba(44, 41, 41, 0.5);
     border-radius: 5px;
     font-size: 20px;
+    display: block;
+    margin: auto;
 }
 .box{
     padding: 5px; 
-    margin: 0 auto 0 auto; 
+    margin: 10px auto 10px auto; 
     border: 1px solid black; /*borda na caixa*/
     border-radius: 5px ;
     display: block; /* desgrudar a caixa da mensagem do input*/
 }
 .input{
-    display: inline-block; 
+    display: inline-block;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
 }
