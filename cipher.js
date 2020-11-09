@@ -14,7 +14,8 @@ const cipher = {
       } else {
         const code = ((textEncode.charCodeAt(index) - alphabetEncode) + offSetEncode) % alphabet + alphabetEncode;
         const encode = String.fromCharCode(code);
-        encrypt += encode; } 
+        encrypt += encode;
+      } 
     }
     return encrypt;
   }
@@ -34,7 +35,8 @@ const cipher = {
       } else {
         const codeDecode = ((textDecode.charCodeAt(index) - alphabetDecode) - offSetDecode) % alphabet + alphabetDecode;
         const decode =  String.fromCharCode(codeDecode);
-        decrypt += decode; }
+        decrypt += decode;
+      }
     }
     return decrypt;
   }
