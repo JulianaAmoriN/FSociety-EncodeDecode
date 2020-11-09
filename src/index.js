@@ -1,20 +1,22 @@
 import cipher from "./cipher.js";
 
-const button1 = document.getElementById("sendEncode");
-button1.addEventListener("click",formEncode);
-//addEventListener fica esperando o evento acontecer, observador
+const buttonEncode = document.getElementById("sendEncode");
+buttonEncode.addEventListener("click",formEncode);
 
-const button2 = document.getElementById("sendDecode");
-button2.addEventListener("click",formDecode);
+const buttonDecode = document.getElementById("sendDecode");
+buttonDecode.addEventListener("click",formDecode);
 
-const textInput = document.getElementById("answerEncode");
 const copyButton = document.getElementById("copy");
-copyButton.addEventListener("click",(event) => {
+copyButton.addEventListener("click",(copy))
+   
+function copy (event){
     event.preventDefault();
+
+    const textInput = document.getElementById("answerEncode");
+
     textInput.select();
     document.execCommand("copy");
-});
-
+}
 function formEncode (event) {
     event.preventDefault();
     
