@@ -8,10 +8,7 @@ buttonDecode.addEventListener("click",formDecode);
 
 const copyButton = document.getElementById("copy");
 copyButton.addEventListener("click",(copy))
-
-const pasteBotton = document.getElementById("paste");
-pasteBotton.addEventListener("click",paste)
-      
+     
 function copy (event){
     event.preventDefault();
 
@@ -19,13 +16,6 @@ function copy (event){
 
     textInput.select();
     document.execCommand("copy");
-}
-
-function paste (event){
-    event.preventDefault();
-
-    navigator.clipboard.readText().then(clipboard =>
-        document.getElementById("messageDecode").innerHTML= clipboard);
 }
 function formEncode (event) {
     event.preventDefault();
