@@ -6,15 +6,15 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="root">
       <header class="presentation">
-        <h2>Olá Mr/Mra.Robot, se você recebu esse link significa 
+        <p>Olá Mr/Mra.Robot, se você recebu esse link significa 
         que faz parte oficialmente da Fsociety. <br>
         Para estabelecer comunicação com a Dark Army criptografe
         TODAS as mensagem antes.
-        </h2>
+        </p>
       </header>
-      <section class="container">
+      <main class="container">
+        <form class="card">
           <h1 class="title"> Criptogra&shyfia </h1>
           CHAVE: <input type="number" id="scretEncode"  class="box" min="1" >
           <label for="messageEncode"> MENSAGEM: </label> 
@@ -23,21 +23,21 @@
           <textarea class="message"  id="answerEncode" readonly></textarea>
           <button id= "copy" class="box input" > Copiar </button>
           <button type="reset" class="box input" > Limpar </button>
-      </section>
-      <section class="container">
+        </form>
+        <form class="card">
           <h1 class="title"> Descripto&shygrafia </h1>
           CHAVE: <input type="number"  id="scretDecode" class="box" min="1"> 
           <label for="messageDecode"> MENSAGEM: </label>
           <textarea id="messageDecode" class="box" ></textarea>
           <button type="submit" class="box input" id="sendDecode"> Descriptografar </button>
           <textarea class="message" id="answerDecode" readonly></textarea>
-          <button type="reset" class="box input" >Limpar</button> 
-      </section> 
-      <footer class="direction">
+          <button type="reset" class="box input clean" >Limpar</button> 
+        </form>
+      </main> 
+      <footer class="infoFooter">
         <p> <b> PS: LEMBRE DE PASSAR A CHAVE PARA A DESCRIPTOGRAFIA ! </b> </p>
         <p class="title"> Autora <a class="link" href="https://github.com/JulianaAmoriN"  target="_blank" > Juliana Silveira </a> </p>
       </footer>
-    </main>
     <script src="index.js" type="module"></script>
   </body>
 </html>
