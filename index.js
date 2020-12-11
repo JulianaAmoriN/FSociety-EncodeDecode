@@ -8,8 +8,7 @@ buttonDecode.addEventListener("click",formDecode);
 
 const copyButton = document.getElementById("copy");
 copyButton.addEventListener("click",(copy))
-
-      
+    
 function copy (event){
     event.preventDefault();
 
