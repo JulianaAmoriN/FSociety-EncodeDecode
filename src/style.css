@@ -1,4 +1,4 @@
-body {
+.image {
     background-image: url("FSociety.jpg");
     background-attachment: fixed; /* imagem não rola com a tela*/
     background-size: 100%; /* ajusta ao tamanho da janela */
