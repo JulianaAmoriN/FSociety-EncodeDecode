@@ -5,23 +5,22 @@ body{
     font-family: "Times New Roman", Times, serif;
     height: 100%;
     width: 100vW;
-    font-size: medium;
+    font-size: larger;
+}
+.configText{
+    width: 90% ;
+    margin: 0 auto 0 auto;
+    text-align: center;
 }
 .presentation{
     display: block;
     background-color: rgba(173, 172, 172, 0.5);
-    width: 90% ;
-    margin: 0 auto 0 auto;
-    text-align: center;
     color: white;
 }
 .container{
     display: flex;
     flex-wrap: wrap;
     background-color:rgba(206, 197, 197, 0.5);
-    width: 90%;
-    margin: 0 auto 0 auto;
-    text-align: center;
 }
 .card{
     display: flex;
@@ -30,20 +29,21 @@ body{
     padding: 5px;
     width: 100%;
 }
-.title{
+.colorBox{
     background-color: rgba(44, 41, 41, 0.5);
     border-radius: 5px;
 }
+.textTransform{
+    text-transform: uppercase;
+}
 .message{
-    background-color: rgba(44, 41, 41, 0.5);
-    border-radius: 5px;
     font-size: 20px;
     margin: auto;
 }
 .box{
     padding: 5px; 
     margin: 10px auto 10px auto; 
-    border: 1px solid black; /*borda na caixa*/
+    border: 1px solid black; 
     border-radius: 5px ;
 }
 .input{
@@ -56,8 +56,5 @@ body{
 }
 .infoFooter{
     display: block;
-    background-color:rgba(206, 197, 197, 0.5);
-    width: 90% ;
-    margin: 0 auto 0 auto;
-    text-align: center;
+    background-color:rgba(252, 252, 252, 0.705);
 }
