@@ -3,8 +3,6 @@ body{
     background-attachment: fixed; /* imagem não rola com a tela*/
     background-size: 100%; /* ajusta ao tamanho da janela */
     font-family: "Times New Roman", Times, serif;
-    height: 100%;
-    width: 100vW;
     font-size: larger;
 }
 .configText{

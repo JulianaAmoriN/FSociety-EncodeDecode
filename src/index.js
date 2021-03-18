@@ -7,9 +7,9 @@ const buttonDecode = document.getElementById("sendDecode");
 buttonDecode.addEventListener("click",formDecode);
 
 const copyButton = document.getElementById("copy");
-copyButton.addEventListener("click",(copy))
+copyButton.addEventListener("click",(copy));
     
-function copy (event){
+function copy (event) {
     event.preventDefault();
     const textInput = document.getElementById("answerEncode");
     textInput.select();
@@ -27,7 +27,7 @@ function formEncode (event) {
 
 function formDecode (event) {
     event.preventDefault();
-    const numberDecode =document.getElementById("scretDecode").value;
+    const numberDecode = document.getElementById("scretDecode").value;
     const offSetDecode = parseInt(numberDecode);
     const printDecode = document.getElementById("messageDecode").value;
     const textDecode = printDecode.toUpperCase();

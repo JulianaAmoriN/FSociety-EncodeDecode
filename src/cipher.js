@@ -1,13 +1,14 @@
+let encrypt = "";
+let decrypt = "";
+const alphabetDecode = 90;
+const alphabetEncode = 65;
+const alphabet = 26;
+
 const cipher = {
   encode : function(offSetEncode,textEncode){
     if(offSetEncode == null || offSetEncode == 0){ 
-      throw new TypeError("Preencha o campo corretamente")
+      throw new TypeError("Preencha o campo corretamente");
     }
-
-    let encrypt = "";
-    const alphabetEncode = 65;
-    const alphabet = 26;
-
     for (let index = 0; index < textEncode.length; index++) {
       if(textEncode.charAt(index) == " "){
         encrypt += " ";
@@ -22,13 +23,8 @@ const cipher = {
   , 
   decode : function(offSetDecode,textDecode){
     if(offSetDecode == null || offSetDecode == 0 ){ 
-      throw new TypeError("Preencha o campo corretamente")
+      throw new TypeError("Preencha o campo corretamente");
     }
-    
-    let decrypt = "";
-    const alphabetDecode = 90;
-    const alphabet = 26;
-
     for (let index = 0; index < textDecode.length; index++) {
       if(textDecode.charAt(index) == " "){
         decrypt += " ";
