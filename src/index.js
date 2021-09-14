@@ -18,8 +18,7 @@ function copy (event) {
 
 function formEncode (event) {
     event.preventDefault();
-    const numberEncode = document.getElementById("scretEncode").value;
-    const offSetEncode = parseInt(numberEncode);
+    const offSetEncode = parseInt(document.getElementById("scretEncode").value);
     const printEncode = document.getElementById("messageEncode").value;
     const textEncode = printEncode.toUpperCase();
     document.getElementById("answerEncode").innerHTML = cipher.encode(offSetEncode,textEncode);
@@ -27,8 +26,7 @@ function formEncode (event) {
 
 function formDecode (event) {
     event.preventDefault();
-    const numberDecode = document.getElementById("scretDecode").value;
-    const offSetDecode = parseInt(numberDecode);
+    const offSetDecode = parseInt(document.getElementById("scretDecode").value);
     const printDecode = document.getElementById("messageDecode").value;
     const textDecode = printDecode.toUpperCase();
     document.getElementById("answerDecode").innerHTML = cipher.decode(offSetDecode,textDecode);
