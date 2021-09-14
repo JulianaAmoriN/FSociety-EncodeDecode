@@ -37,7 +37,7 @@
 
 ## Sobre o projeto
 <p align="center">
-<img src="https://github.com/JulianaAmoriN/FSociety/blob/master/src/FSociety.jpg?raw=true" width="50%" height="50%">
+<img src="https://github.com/JulianaAmoriN/FSociety/blob/master/src/img/FSociety.jpg?raw=true" width="50%" height="50%">
 </p>
 
 **FSociety** foi  desenvolvido durante o **bootcamp da  [Laboratória](https://www.laboratoria.la/br)**. 

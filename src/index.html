@@ -1,46 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="utf-8">
-    <link rel="icon" type="imagem/jpg" href="FSociety.jpg"/>
-    <title>FSociety</title>
-    <link rel="stylesheet" href="style.css"/>
-  </head>
-  <body>
-      <header class="presentation configText">
-        <p>Olá Mr/Mra.Robot, se você recebu esse link significa 
-          que faz parte oficialmente da Fsociety. <br>
-          Para estabelecer comunicação com a Dark Army criptografe
-          TODAS as mensagem antes.
-        </p>
-      </header>
-      <main class="container configText">
-        <form class="card">
-          <h1 class="colorBox"> Criptogra&shyfia </h1>
-          <p class="textTransform"> Chave: </p>
-          <input type="number" id="scretEncode"  class="box" min="1" >
-          <label for="messageEncode" class="textTransform"> Mensagem: </label> 
-          <textarea id="messageEncode" class="box"></textarea>
-          <button type="submit" class="box input" id="sendEncode"> Criptografar </button>
-          <textarea class="message colorBox"  id="answerEncode" readonly></textarea>
-          <button id= "copy" class="box input" > Copiar </button>
-          <button type="reset" class="box input" > Limpar </button>
-        </form>
-        <form class="card">
-          <h1 class="colorBox"> Descripto&shygrafia </h1>
-          <p class="textTransform"> Chave: </p>
-          <input type="number"  id="scretDecode" class="box" min="1"> 
-          <label for="messageDecode" class="textTransform"> Mensagem: </label>
-          <textarea id="messageDecode" class="box" ></textarea>
-          <button type="submit" class="box input" id="sendDecode"> Descriptografar </button>
-          <textarea class="message colorBox" id="answerDecode" readonly></textarea>
-          <button type="reset" class="box input clean" >Limpar</button> 
-        </form>
-      </main> 
-      <footer class="infoFooter configText">
-        <p class="textTransform"> <b> PS: Lembre de passar a chave para a descriptografia ! </b> </p>
-        <p class="colorBox"> Autora <a class="link" href="https://github.com/JulianaAmoriN"  target="_blank" > Juliana Silveira </a> </p>
-      </footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="imagem/jpg" href="./img/FSociety.jpg" />
+  <title>FSociety</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="presentation configText">
+    <p>Olá Mr/Mra.Robot, se você recebu esse link significa
+      que faz parte oficialmente da Fsociety. <br>
+      Para estabelecer comunicação com a Dark Army criptografe
+      TODAS as mensagem antes.
+    </p>
+  </header>
+  <main class="container configText">
+    <form class="card">
+      <h1 class="colorBox"> Criptogra&shyfia </h1>
+      <p class="textTransform"> Chave: </p>
+      <input type="number" id="scretEncode" class="box" min="1">
+      <label for="messageEncode" class="textTransform"> Mensagem: </label>
+      <textarea id="messageEncode" class="box"></textarea>
+      <button type="submit" class="box input" id="sendEncode"> Criptografar </button>
+      <textarea class="message colorBox" id="answerEncode" readonly></textarea>
+      <button id="copy" class="box input"> Copiar </button>
+      <button type="reset" class="box input"> Limpar </button>
+    </form>
+    <form class="card">
+      <h1 class="colorBox"> Descripto&shygrafia </h1>
+      <p class="textTransform"> Chave: </p>
+      <input type="number" id="scretDecode" class="box" min="1">
+      <label for="messageDecode" class="textTransform"> Mensagem: </label>
+      <textarea id="messageDecode" class="box"></textarea>
+      <button type="submit" class="box input" id="sendDecode"> Descriptografar </button>
+      <textarea class="message colorBox" id="answerDecode" readonly></textarea>
+      <button type="reset" class="box input clean">Limpar</button>
+    </form>
+  </main>
+  <footer class="infoFooter configText">
+    <p class="textTransform"> <b> PS: Lembre de passar a chave para a descriptografia ! </b> </p>
+    <p class="colorBox"> Autora <a class="link" href="https://github.com/JulianaAmoriN" target="_blank"> Juliana
+        Silveira </a> </p>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
