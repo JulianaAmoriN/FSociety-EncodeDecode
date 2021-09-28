@@ -57,7 +57,7 @@ Linguagens e ferramentas usadas para elaboração do projeto :
 
 ## Aplicativo
 <p align="center">
-<img src="https://github.com/JulianaAmoriN/FSociety/blob/master/src/gifTelaMr.gif?raw=true" >
+<img src="https://raw.githubusercontent.com/JulianaAmoriN/FSociety/master/src/img/gifTelaMr.gif" >
 </p>
 
 ### Link Deploy
