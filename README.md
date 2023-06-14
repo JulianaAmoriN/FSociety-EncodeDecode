@@ -11,7 +11,7 @@
     ·
 <a href="https://github.com/JulianaAmoriN/FSociety/issues">Reportar Bug</a>
  ·
-<a href="https://julianaamorin.github.io/FSociety/">Deploy</a>
+<a href="https://julianaamorin.github.io/f-society/">Deploy</a>
 </p>
 
 <details open="open">
